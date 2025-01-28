@@ -1,0 +1,17 @@
+class Samsung:
+    def feature1(self):
+        print("It's very common")
+
+class Apple:
+    def feature2(self):
+        print("HIGH class")
+
+class Redmi(Apple,Samsung):
+    def feature3(self):
+        print("Camera")
+
+x = Redmi()
+x.feature1()
+
+
+        
