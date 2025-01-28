@@ -1,0 +1,11 @@
+class Cocacola:
+    def energy_drink(self):
+        print("Ingredients are secret")
+
+class HighlandMilk(Cocacola):
+    def soft_drink(self):
+        print("Rejoice your taste buds")
+
+milk = HighlandMilk()
+milk.energy_drink()
+
